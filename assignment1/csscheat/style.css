@@ -1,0 +1,54 @@
+
+body{
+	background-color:gray;
+	
+}
+
+.container{
+    border:1px solid black;
+	width:75%;
+	margin-left:10%;
+    position:relative;
+    background-image:url('images/image3.jpg');
+         }
+
+.container > h1{
+	position:absolute;
+	top:3%
+	left:35%
+               }
+
+.container > p1{
+	position:absolute;
+	top:25%;
+	left:50%;
+}
+.container > h1{
+	text-align: center;
+    float:right;
+    margin-right:25%;
+    margin-top:5px;
+    position:relative;
+}
+.container > p{
+	margin:35px;
+}
+
+.block {
+	border:1px solid black;
+	float :left;
+	margin:50px;
+	width:200px;
+	text-align:center;
+	background-image:url('images/image2.jpg');
+        }
+
+.p-box {
+	border:1px solid black;
+	margin:10%;
+	float:left;
+	width:75%;
+	text-align:center;
+	  background-image:url('images/image3.jpg');
+
+       }        
